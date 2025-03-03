@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Counter from '@/components/Counter';
 
 export default function Home() {
   return (
@@ -17,9 +16,6 @@ export default function Home() {
       >
         カウンターページへ
       </Link>
-      <div className="mt-8">
-        <Counter />
-      </div>
     </main>
   );
 }
