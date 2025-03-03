@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import Counter from '../src/components/Counter';
 
 export default function Home() {
   return (
@@ -9,6 +11,15 @@ export default function Home() {
       <p className="mt-4 text-gray-600 dark:text-gray-300">
         ようこそNext.jsの世界へ！
       </p>
+      <Link 
+        href="/counter" 
+        className="mt-4 text-blue-500 hover:text-blue-600 underline"
+      >
+        カウンターページへ
+      </Link>
+      <div className="mt-8">
+        <Counter />
+      </div>
     </main>
   );
 }
