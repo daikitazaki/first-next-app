@@ -1,5 +1,8 @@
+'use client';
+
+import React from 'react';
 import Link from 'next/link';
-import Counter from '../../components/Counter';
+import Counter from '@/components/Counter';
 
 export default function CounterPage() {
   return (
@@ -7,7 +10,7 @@ export default function CounterPage() {
       <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
         カウンターページ
       </h1>
-      <Counter message="Hello Counter" />
+      <Counter message="がんばって10まで数えよう！" />
       <Link 
         href="/" 
         className="mt-8 text-blue-500 hover:text-blue-600 underline"

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Counter from '../src/components/Counter';
+import Counter from '@/components/Counter';
 
 export default function Home() {
   return (
