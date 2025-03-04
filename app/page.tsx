@@ -16,6 +16,12 @@ export default function Home() {
       >
         カウンターページへ
       </Link>
+      <Link 
+        href="/todo" 
+        className="mt-4 text-blue-500 hover:text-blue-600 underline"
+      >
+        ToDoリストページへ
+      </Link>
     </main>
   );
 }

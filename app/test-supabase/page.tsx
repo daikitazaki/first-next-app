@@ -31,7 +31,9 @@ export default function TestSupabase() {
       {tasks.length > 0 && (
         <ul>
           {tasks.map((task) => (
-            <li key={task.id}>{task.title}</li>
+            <li key={task.id}>
+              <strong>{task.title}</strong>: {task.description}
+            </li>
           ))}
         </ul>
       )}
